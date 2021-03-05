@@ -1,0 +1,158 @@
+@font-face {
+    font-family: Lora;
+    src: url('assets/Lora/Lora-VariableFont_wght.ttf');
+}
+
+* {
+    -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    background-color: black;
+    padding: 1em 0;
+}
+
+#nav-logo img {
+    width: 50px;
+    position: relative;
+    top: 0.8em;
+}
+
+nav ul, nav a {
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+nav li {
+    float: left;
+    margin: 0 1em;
+}
+
+main {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 2em;
+}
+
+#newsletter-float {
+    float: right;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Lora;
+    font-weight: bold;
+    position: relative;
+    padding: 0 1em;
+}
+
+#newsletter-float img {
+    width: 70%;
+}
+
+#newsletter-button {
+    margin: 1em 0 2em;
+    font-size: 23px;
+    padding: 11px 18px;
+    background-color: white;
+    border-radius: 9px;
+    text-decoration: none;
+    color: #D33A2C;
+}
+
+#newsletter-float h2 {
+    text-align: center;
+    width: 100%;
+    font-size: 28px;
+}
+
+#newsletter-background {
+    position: absolute;
+    top: 7em;
+    background-color: #E7F8FF;
+    width: 100%;
+    height: 90%;
+    z-index: -1;
+    border-radius: 10px;
+}
+
+#newsletter-float p {
+    text-align: center;
+    font-size: 19px;
+    margin-top: 1.5em;
+    width: 95%;
+}
+
+#newsletter-footer {
+    color: gray;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 100;
+    margin-top: 2.5em;
+}
+
+#newsletter-footer a {
+    color: gray;
+}
+
+#newsletter-shadow {
+    width: 97%;
+    height: 1em;
+    position: relative;
+    z-index: -1;
+    top: 2.5em;
+    right: 4px;
+    box-shadow: 8px 8px 10px black;
+}
+
+#newsletter-form input {
+    margin-top: 1em;
+    float: left;
+}
+
+#newsletter-search {
+    color: gray;
+    border-radius: 6px 0 0 6px;
+    border: 1px solid white;
+    width: 14em;
+    font-style: italic;
+    text-decoration: none;
+    padding: 1.2em 1em;
+    outline: none;
+}
+
+#newsletter-submit {
+    color: white;
+    font-weight: bolder;
+    border-radius: 0 6px 6px 0;
+    border: 1px solid #0168b8;
+    background-color: #0168b8;
+    width: 8em;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 1em;
+    outline: none;
+}
