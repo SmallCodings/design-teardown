@@ -1,3 +1,5 @@
+<!--Just did the top part of the page along with the footer-->
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -14,8 +16,8 @@
                     <li><a href="#">Books</a></li>
                     <li><a href="#">Workshops</a></li>
                     <li><a href="#">Membership</a></li>
-                    <li>More</li>
-                    <li><input type="search"></li>
+                    <li id="nav-more">More</li>
+                    <li id="nav-searchbar-container"><input type="search" id="nav-searchbar" value="Search articles..."></li>
                 </ul>
             </nav>
         </header>
@@ -34,10 +36,40 @@
                     </form>
                     <div id="newsletter-footer">On <a href="#">front-end & UX.</a> Trusted by 190.000 folks.</div>
                 </aside>
-                <article>
-                    <h1></h1>
+                <div class="space"></div>
+                <article id="main-article">
+                    <div id="profile-container">
+                        <div class="profile-picture"></div>
+                        <div class="flex-column" id="profile-text">
+                            <h6><a href="#">Paul Boag</a> wrote</h6>
+                            <h1>UI Design Testing Tools I Use All The Time</h1>
+                            <p><time>MAR 5, 2021</time> in <a href="#">UI</a>, <a href="#">Design</a>, <a href="#">Tools</a></p>
+                        </div>
+                    </div>
+                    <div id="profile-description">
+                        <p>Our lives as UI designers have never been easier with a host of amazing tools at our disposal. In this article, Paul Boag explores some of the useful tools that he keeps close at his work.</p>
+                        <a href="#">Continue reading</a>
+                    </div>
+                    <div class="small-profile-container">
+                        <div class="small-profile-picture"></div>
+                        <div class="margin-left">
+                            <p><a href="#">Arihant Verma</a> / <time>MAR 3, 2021</time> in <a href="#">Tools</a>, <a href="#">React</a>, <a href="#">JavaScript</a></p>
+                            <h3>Creating An Outside Focus And Click Handler React Component</h3>
+                        </div>
+                    </div>
+                    <div class="small-profile-container">
+                        <div class="small-profile-picture"></div>
+                        <div class="margin-left">
+                            <p><a href="#">Kelvin Omereshone</a> / <time>MAR 2, 2021</time> in <a href="#">Apps</a>, <a href="#">Testing</a>, <a href="#">Browsers</a></p>
+                            <h3>The State Of Mobile And Why Mobile Web Testing Matters</h3>
+                        </div>
+                    </div>
+                    <div class="latest-articles-container"><a href="#">SEE ALL LATEST ARTICLES</a></div>
                 </article>
             </div>
         </main>
+        <footer>
+            <h4>BROWSE ALL SMASHING MAGAZINE TOPICS</h4>
+        </footer>
     </body>
 </html>
